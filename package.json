@@ -1,0 +1,27 @@
+{
+  "name": "learn_nodejs",
+  "version": "1.0.0",
+  "description": "learn NodeJS",
+  "homepage": "https://github.com/donaldsam001/Learn_NodeJS#readme",
+  "bugs": {
+    "url": "https://github.com/donaldsam001/Learn_NodeJS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldsam001/Learn_NodeJS.git"
+  },
+  "license": "ISC",
+  "author": "Donald Sam",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3",
+    "nodemon": "^3.1.14"
+  }
+}
